@@ -1,0 +1,7 @@
+// ================================================
+//  Import of all _index.scss files from subfolders
+// ================================================
+
+@import 'utilities/_index.scss',
+        'base/_index.scss',
+        'component/_index.scss';
