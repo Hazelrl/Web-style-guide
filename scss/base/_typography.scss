@@ -4,7 +4,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
-  color: $color-secondary;
+  color: $grey;
   box-sizing: border-box;
 }
 
@@ -28,11 +28,11 @@ a {
 
 .headline-secondary {
   font-weight: 300;
-  color: $color-secondary;
+  color: $grey;
 }
 
 .link {
-  color: #51ddfc;
+  color: $color-secondary;
   font-weight: 700;
 }
 

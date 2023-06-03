@@ -2,6 +2,23 @@
 /*              Color variables                 */
 /* =============================================*/
 
-$white: #fff;
+// Main theme colors
 $color-primary: #58e1c1;
-$color-secondary: #777;
+$color-secondary: #51ddfc;
+
+// Additional theme colors - components
+$green: #63cc82; 
+$red: #e4757a;
+$orange: #fd7856; 
+$purple: #927bc1;
+
+// Misc colors
+$white: #fff;
+$grey: #777;
+
+
+/* =============================================*/
+/*      Media query breakpoint variables        */
+/* =============================================*/
+
+$brk-wide:'(min-width 768px)';

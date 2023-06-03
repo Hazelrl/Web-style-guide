@@ -1,6 +1,9 @@
 /* =============================================*/
 /*              Color variables                 */
 /* =============================================*/
+/* =============================================*/
+/*      Media query breakpoint variables        */
+/* =============================================*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -643,7 +646,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width 768px) {
   /* line 7, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
   .container {
     max-width: 1400px;
