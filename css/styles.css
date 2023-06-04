@@ -769,19 +769,19 @@ a {
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 89, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
+  /* line 87, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 93, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
+  /* line 92, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 97, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
+  /* line 96, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 101, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
+  /* line 100, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
