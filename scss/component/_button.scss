@@ -16,21 +16,36 @@
   
   .default {
     background-color: $color-secondary;
+    &:hover {
+      @include hover-over($color-secondary);
+    }
   }
   
   .error {
     background-color: $red;
+    &:hover {
+      @include hover-over($red);
+    }
   }
   
   .info {
     background-color: $purple;
+    &:hover {
+      @include hover-over($purple);
+    }
   }
   
   .success {
     background-color: $green;
+    &:hover {
+      @include hover-over($green);
+    }
   }
   
   .warning {
     background-color: $orange;
+    &:hover {
+      @include hover-over($orange);
+    }
   }
   

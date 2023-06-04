@@ -1,8 +1,13 @@
-// a mixin for image display
+@mixin img-style {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    // display: block;
-    // margin-left: auto;
-    // margin-right: auto;
-    // margin-top: 10px;
-    // max-width: 100%; 
 
+@mixin hover-over ($background-color) {
+    background-color: lighten($background-color, 15%);
+    color: $grey;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}

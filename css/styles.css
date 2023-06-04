@@ -448,24 +448,64 @@ a {
   background-color: #51ddfc;
 }
 
-/* line 21, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+/* line 19, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+.default:hover {
+  background-color: #9cecfd;
+  color: #777;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+/* line 24, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 25, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+/* line 26, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+.error:hover {
+  background-color: #f1b5b8;
+  color: #777;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+/* line 31, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 29, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+/* line 33, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+.info:hover {
+  background-color: #bdafd9;
+  color: #777;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+/* line 38, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 33, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+/* line 40, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+.success:hover {
+  background-color: #9ddfb0;
+  color: #777;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+/* line 45, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 47, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_button.scss */
+.warning:hover {
+  background-color: #feb4a2;
+  color: #777;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
 }
 
 /* ============================================= */
@@ -596,17 +636,17 @@ a {
   flex-direction: column;
 }
 
-/* line 13, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_navigation.scss */
+/* line 12, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-/* line 24, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_navigation.scss */
+/* line 21, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -625,7 +665,7 @@ a {
   max-height: 100%;
 }
 
-/* line 14, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_image.scss */
+/* line 12, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_image.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -636,7 +676,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 24, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_image.scss */
+/* line 20, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_image.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -646,7 +686,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width 768px) {
+@media ((min-width: 768px)) {
   /* line 7, ../../../OneDrive/Treehouse techdegree - FEWD/FEWD-Techdegree-project-4/Web-style-guide/scss/component/_media-queries.scss */
   .container {
     max-width: 1400px;
